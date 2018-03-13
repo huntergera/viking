@@ -1,0 +1,288 @@
+@import 'reset';
+@import 'common';
+
+body {
+	background: url('../img/bg-body.jpg') no-repeat center 0;
+	background-size: cover;
+	color: #fff;
+}
+
+/*------------ HEADER -------------*/
+	.page-header {
+		position: relative;
+	}
+
+	.particles-js {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -2;
+	}
+
+	.viking {
+		position: absolute;
+		z-index: -1;
+		top: 26px;
+		left: 17.9%;
+	}
+
+	.header-right {
+		float: right;
+		text-align: center;
+		padding: 68px 0 0 0;
+	}
+
+	.form {
+		display: none;
+	}
+
+	.pop_up {
+		display:none;
+	}
+
+	.logo {
+		display: inline-block;
+	}
+
+	.header-right_item-1 {
+		margin: 60px 0 0 0;
+	}
+
+	.header-right_item-2 {
+		padding: 9px 4px 0 0;
+	}
+
+	.header-right_item-3 {
+		padding: 7px 0 13px 0;
+	}
+
+	.btn {
+		display: inline-block;
+		font: 31px 'Circe-Bold', Arial;
+		color: #fff;
+		background: linear-gradient(to right, #02964a, #2cfb6f);
+		border: 0;
+		letter-spacing: .5px;
+		padding: 28px 48px;
+		border-radius: 54px;
+		margin-right: -9px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+
+		&:hover {
+			opacity: 0.9;
+		}
+	}
+
+
+/*------------ SECTION MAIN-PAGE -------------*/
+	.main-page {
+		position: relative;
+		padding: 0 0 87px 0;
+	}
+
+	.arrow {
+		position: absolute;
+		top: 213px;
+		left: -3.6%;
+	}
+
+	.card {
+		position: absolute;
+		right: 3.1%;
+		top: 35px;
+	}
+
+	.instruction_item {
+		float: left;
+		width: 32%;
+		position: relative;
+	}
+
+	.instruction_number {
+		font: 84px 'Herculanum', Arial;
+		color: #efb539;
+		position: absolute;
+	}
+
+	.instruction_text {
+		font: 17px 'Circe-Regular', Arial;
+		letter-spacing: 0.5px;
+		line-height: 1.25;
+	}
+
+	.span_main {
+		color: #efb539;
+	}
+
+	.span_insrt {
+		font-family: 'Circe-ExtraBold';
+	}
+
+	.instruction {
+		padding: 130px 0 0 0;
+	}
+
+	.instr_item-1 {
+		padding: 36px 0 0 8.4%;
+	}
+
+	.instr_item-2 {
+		padding: 8px 0 0 7.6%;
+	}
+
+	.instr_item-3 {
+		padding: 0 0 0 4.7%;
+	}
+
+	.number-1 {
+		top: 62%;
+		left: 30.6%;
+	}
+
+	.number-2 {
+		top: 63%;
+		left: 27%;
+	}
+
+	.number-3 {
+		top: 55%;
+		left: 24.7%;
+	}
+
+	.instr_text-1 {
+		padding: 45px 0 0 57px;
+	}
+
+	.instr_text-2 {
+		padding: 49px 0 0 73px;
+	}
+
+	.instr_text-3 {
+		padding: 43px 0 0 81px;
+	}
+
+	.tagline {
+		font: 41px 'Underdog-Regular', Arial;
+		text-align: center;
+		padding: 158px 0 158px 1.4%;
+		letter-spacing: 0.6px;
+		position: relative;
+	}
+
+	.br_tagline {
+		display: none;
+	}
+
+	.tagline_top-element {
+		position: absolute;
+		top: 82px;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	.tagline_bottom-element {
+		position: absolute;
+		top: 249px;
+		left: 50%;
+		transform: translate(-50%);
+	}
+
+	.tagline_left-fire {
+		position: absolute;
+		top: 22px;
+		left: -7.5%;
+	}
+
+	.tagline_right-fire {
+		position: absolute;
+		top: 65px;
+		right: -7.5%;
+	}
+
+	.advantages {
+		padding: 0 1% 0 5%;
+	}
+
+	.advantages_item {
+		width: 24%;
+		float: left;
+		text-align: center;
+	}
+
+	.advantages_icon {
+		background: url('../img/sprite-advantages.png') no-repeat;
+		height: 89px;
+		width: 80px;
+		display: inline-block;
+	}
+
+	.advantages_text {
+		font: 16px 'Circe-Bold', Arial;
+		padding: 29px 40px 0 36px;
+		line-height: 1.1;
+	}
+
+	.adv_icon-1 {
+		background-position: -21px 0;
+	}
+
+	.adv_icon-2 {
+		background-position: -146px 7px;
+	}
+
+	.adv_icon-3 {
+		background-position: -273px -2px;
+	}
+
+	.adv_icon-4 {
+		background-position: -399px 4px;
+	}
+	
+	.coin-1 {
+		position: absolute;
+		left: 5.7%;
+		bottom: -0.8%;
+	}
+
+	.coin-2 {
+		position: absolute;
+		left: 15.9%;
+		bottom: -11.2%;
+	}
+
+	.coin-3 {
+		position: absolute;
+		right: 22.5%;
+		bottom: -15.6%;
+	}
+
+
+/*------------ FOOTER -------------*/
+	.page-footer {
+		text-align: center;
+	}
+
+	.btn_footer {
+		display: inline-block;
+		font: 32px 'Circe-Bold', Arial;
+		color: #fff;
+		border: 0;
+		background: linear-gradient(left, #04bb5c, #53fe8a);
+		padding: 28px 84px;
+		border-radius: 53px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
+	.logo_footer {
+		padding: 70px 14px 0 0px;
+	}
+
+@import 'media';

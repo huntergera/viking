@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'Circe-Bold';
+	src: url('../fonts/Circe/Circe-Bold/Circe-Bold.eot');
+	src:local("☺"), url('../fonts/Circe/Circe-Bold/Circe-Bold.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/Circe/Circe-Bold/Circe-Bold.woff') format("woff"),
+		url('../fonts/Circe/Circe-Bold/Circe-Bold.ttf') format("truetype"),
+		url('../fonts/Circe/Circe-Bold/Circe-Bold.svg') format("svg")
+}
+
+@font-face {
+	font-family: 'Circe-ExtraBold';
+	src: url('../fonts/Circe/Circe-ExtraBold/Circe-ExtraBold.eot');
+	src:local("☺"), url('../fonts/Circe/Circe-ExtraBold/Circe-ExtraBold.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/Circe/Circe-ExtraBold/Circe-ExtraBold.woff') format("woff"),
+		url('../fonts/Circe/Circe-ExtraBold/Circe-ExtraBold.ttf') format("truetype"),
+		url('../fonts/Circe/Circe-ExtraBold/Circe-ExtraBold.svg') format("svg")
+}
+
+@font-face {
+	font-family: 'Circe-Regular';
+	src: url('../fonts/Circe/Circe-Regular/Circe-Regular.eot');
+	src:local("☺"), url('../fonts/Circe/Circe-Regular/Circe-Regular.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/Circe/Circe-Regular/Circe-Regular.woff') format("woff"),
+		url('../fonts/Circe/Circe-Regular/Circe-Regular.ttf') format("truetype"),
+		url('../fonts/Circe/Circe-Regular/Circe-Regular.svg') format("svg")
+}
+
+@font-face {
+	font-family: 'Underdog-Regular';
+	src: url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.eot');
+	src:local("☺"), url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.woff') format("woff"),
+		url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.ttf') format("truetype"),
+		url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.svg') format("svg"),
+		url('../fonts/Underdog/Underdog-Regular/Underdog-Regular.otf') format("otf")
+}
+
+@font-face {
+	font-family: 'Herculanum';
+	src: url('../fonts/Herculanum/Herculanum/Herculanum.eot');
+	src:local("☺"), url('../fonts/Herculanum/Herculanum.eot?#iefix') format("embedded-opentype"),
+		url('../fonts/Herculanum/Herculanum.woff') format("woff"),
+		url('../fonts/Herculanum/Herculanum.ttf') format("truetype"),
+		url('../fonts/Herculanum/Herculanum.svg') format("svg"),
+		url('../fonts/Herculanum/Herculanum.otf') format("otf")
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
